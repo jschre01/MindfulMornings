@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB024C3D27B1CBEE00D608AC /* InitialQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB024C3C27B1CBEE00D608AC /* InitialQuestionViewController.swift */; };
+		FB024C3F27B1CBFC00D608AC /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB024C3E27B1CBFC00D608AC /* QuestionViewController.swift */; };
+		FB192A4A281C8E5700E0B6AF /* Users.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB192A48281C8E5700E0B6AF /* Users.xcdatamodeld */; };
+		FB192A4C281C956000E0B6AF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB192A4B281C956000E0B6AF /* LoginViewController.swift */; };
+		FB192A4E281CA41E00E0B6AF /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB192A4D281CA41E00E0B6AF /* AccountViewController.swift */; };
+		FB1EA8B327F3D12800FFE4D0 /* UITextView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1EA8B227F3D12800FFE4D0 /* UITextView+Additions.swift */; };
+		FB29E599280D14510011E7E8 /* EditNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB29E598280D14510011E7E8 /* EditNotificationViewController.swift */; };
+		FBBDBCEB2829C05100A346E6 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBDBCEA2829C05100A346E6 /* HistoryViewController.swift */; };
+		FBBDBCED2829C05E00A346E6 /* ResponseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBDBCEC2829C05E00A346E6 /* ResponseViewController.swift */; };
+		FBC887F1280B7F1700CF3397 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC887F0280B7F1700CF3397 /* WelcomeViewController.swift */; };
+		FBC887F3280B832B00CF3397 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC887F2280B832B00CF3397 /* NotificationViewController.swift */; };
+		FBDD56F927B1C7D5007E719F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDD56F827B1C7D5007E719F /* AppDelegate.swift */; };
+		FBDD56FB27B1C7D5007E719F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDD56FA27B1C7D5007E719F /* SceneDelegate.swift */; };
+		FBDD56FD27B1C7D6007E719F /* PreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDD56FC27B1C7D6007E719F /* PreferencesViewController.swift */; };
+		FBDD570027B1C7D6007E719F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBDD56FE27B1C7D6007E719F /* Main.storyboard */; };
+		FBDD570227B1C7D7007E719F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBDD570127B1C7D7007E719F /* Assets.xcassets */; };
+		FBDD570527B1C7D7007E719F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBDD570327B1C7D7007E719F /* LaunchScreen.storyboard */; };
+		FBF40C2B282DEFBA002027B5 /* CongratsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF40C2A282DEFBA002027B5 /* CongratsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FB024C3C27B1CBEE00D608AC /* InitialQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialQuestionViewController.swift; sourceTree = "<group>"; };
+		FB024C3E27B1CBFC00D608AC /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		FB192A49281C8E5700E0B6AF /* Users.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Users.xcdatamodel; sourceTree = "<group>"; };
+		FB192A4B281C956000E0B6AF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FB192A4D281CA41E00E0B6AF /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		FB1EA8B227F3D12800FFE4D0 /* UITextView+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView+Additions.swift"; sourceTree = "<group>"; };
+		FB29E598280D14510011E7E8 /* EditNotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNotificationViewController.swift; sourceTree = "<group>"; };
+		FBBDBCEA2829C05100A346E6 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		FBBDBCEC2829C05E00A346E6 /* ResponseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseViewController.swift; sourceTree = "<group>"; };
+		FBC887F0280B7F1700CF3397 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		FBC887F2280B832B00CF3397 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		FBDD56F527B1C7D5007E719F /* MindfulMorning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindfulMorning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBDD56F827B1C7D5007E719F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBDD56FA27B1C7D5007E719F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FBDD56FC27B1C7D6007E719F /* PreferencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesViewController.swift; sourceTree = "<group>"; };
+		FBDD56FF27B1C7D6007E719F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBDD570127B1C7D7007E719F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBDD570427B1C7D7007E719F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBDD570627B1C7D7007E719F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBF40C2A282DEFBA002027B5 /* CongratsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CongratsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBDD56F227B1C7D5007E719F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBDD56EC27B1C7D5007E719F = {
+			isa = PBXGroup;
+			children = (
+				FBDD56F727B1C7D5007E719F /* MindfulMorning */,
+				FBDD56F627B1C7D5007E719F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBDD56F627B1C7D5007E719F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBDD56F527B1C7D5007E719F /* MindfulMorning.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBDD56F727B1C7D5007E719F /* MindfulMorning */ = {
+			isa = PBXGroup;
+			children = (
+				FBDD56F827B1C7D5007E719F /* AppDelegate.swift */,
+				FBDD56FA27B1C7D5007E719F /* SceneDelegate.swift */,
+				FBDD56FC27B1C7D6007E719F /* PreferencesViewController.swift */,
+				FBC887F2280B832B00CF3397 /* NotificationViewController.swift */,
+				FB29E598280D14510011E7E8 /* EditNotificationViewController.swift */,
+				FBC887F0280B7F1700CF3397 /* WelcomeViewController.swift */,
+				FB024C3C27B1CBEE00D608AC /* InitialQuestionViewController.swift */,
+				FB024C3E27B1CBFC00D608AC /* QuestionViewController.swift */,
+				FBDD56FE27B1C7D6007E719F /* Main.storyboard */,
+				FBF40C2A282DEFBA002027B5 /* CongratsViewController.swift */,
+				FBBDBCEA2829C05100A346E6 /* HistoryViewController.swift */,
+				FBBDBCEC2829C05E00A346E6 /* ResponseViewController.swift */,
+				FB192A4D281CA41E00E0B6AF /* AccountViewController.swift */,
+				FB192A4B281C956000E0B6AF /* LoginViewController.swift */,
+				FBDD570127B1C7D7007E719F /* Assets.xcassets */,
+				FBDD570327B1C7D7007E719F /* LaunchScreen.storyboard */,
+				FBDD570627B1C7D7007E719F /* Info.plist */,
+				FB192A48281C8E5700E0B6AF /* Users.xcdatamodeld */,
+				FB1EA8B227F3D12800FFE4D0 /* UITextView+Additions.swift */,
+			);
+			path = MindfulMorning;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBDD56F427B1C7D5007E719F /* MindfulMorning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBDD570927B1C7D7007E719F /* Build configuration list for PBXNativeTarget "MindfulMorning" */;
+			buildPhases = (
+				FBDD56F127B1C7D5007E719F /* Sources */,
+				FBDD56F227B1C7D5007E719F /* Frameworks */,
+				FBDD56F327B1C7D5007E719F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MindfulMorning;
+			productName = MindfulMorning;
+			productReference = FBDD56F527B1C7D5007E719F /* MindfulMorning.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBDD56ED27B1C7D5007E719F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					FBDD56F427B1C7D5007E719F = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FBDD56F027B1C7D5007E719F /* Build configuration list for PBXProject "MindfulMorning" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBDD56EC27B1C7D5007E719F;
+			productRefGroup = FBDD56F627B1C7D5007E719F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBDD56F427B1C7D5007E719F /* MindfulMorning */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBDD56F327B1C7D5007E719F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBDD570527B1C7D7007E719F /* LaunchScreen.storyboard in Resources */,
+				FBDD570227B1C7D7007E719F /* Assets.xcassets in Resources */,
+				FBDD570027B1C7D6007E719F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBDD56F127B1C7D5007E719F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF40C2B282DEFBA002027B5 /* CongratsViewController.swift in Sources */,
+				FB192A4C281C956000E0B6AF /* LoginViewController.swift in Sources */,
+				FBDD56FD27B1C7D6007E719F /* PreferencesViewController.swift in Sources */,
+				FB192A4E281CA41E00E0B6AF /* AccountViewController.swift in Sources */,
+				FBC887F1280B7F1700CF3397 /* WelcomeViewController.swift in Sources */,
+				FBBDBCED2829C05E00A346E6 /* ResponseViewController.swift in Sources */,
+				FB1EA8B327F3D12800FFE4D0 /* UITextView+Additions.swift in Sources */,
+				FBBDBCEB2829C05100A346E6 /* HistoryViewController.swift in Sources */,
+				FB192A4A281C8E5700E0B6AF /* Users.xcdatamodeld in Sources */,
+				FB024C3F27B1CBFC00D608AC /* QuestionViewController.swift in Sources */,
+				FBDD56F927B1C7D5007E719F /* AppDelegate.swift in Sources */,
+				FBC887F3280B832B00CF3397 /* NotificationViewController.swift in Sources */,
+				FBDD56FB27B1C7D5007E719F /* SceneDelegate.swift in Sources */,
+				FB29E599280D14510011E7E8 /* EditNotificationViewController.swift in Sources */,
+				FB024C3D27B1CBEE00D608AC /* InitialQuestionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FBDD56FE27B1C7D6007E719F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBDD56FF27B1C7D6007E719F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBDD570327B1C7D7007E719F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBDD570427B1C7D7007E719F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBDD570727B1C7D7007E719F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBDD570827B1C7D7007E719F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBDD570A27B1C7D7007E719F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PY9957M84G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MindfulMorning/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mindfulmorning.MindfulMorning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBDD570B27B1C7D7007E719F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PY9957M84G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MindfulMorning/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mindfulmorning.MindfulMorning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBDD56F027B1C7D5007E719F /* Build configuration list for PBXProject "MindfulMorning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBDD570727B1C7D7007E719F /* Debug */,
+				FBDD570827B1C7D7007E719F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBDD570927B1C7D7007E719F /* Build configuration list for PBXNativeTarget "MindfulMorning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBDD570A27B1C7D7007E719F /* Debug */,
+				FBDD570B27B1C7D7007E719F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FB192A48281C8E5700E0B6AF /* Users.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FB192A49281C8E5700E0B6AF /* Users.xcdatamodel */,
+			);
+			currentVersion = FB192A49281C8E5700E0B6AF /* Users.xcdatamodel */;
+			path = Users.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FBDD56ED27B1C7D5007E719F /* Project object */;
+}
